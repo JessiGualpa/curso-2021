@@ -57,7 +57,7 @@ nav ul li{
      
     padding-bottom: 20px;
      padding: 10px;
-     border-bottom: 1px solid royalblue;
+     border-bottom: 1px solid rgb(225, 116, 65);
  }
 
  aside{
@@ -81,7 +81,7 @@ nav ul li{
 
     
  }
-
+/*comentario*/
   .clearfix {
       clear: both;  /*deja de flotar  y se alinea a bajo*/
   }
