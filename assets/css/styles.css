@@ -1,0 +1,87 @@
+/* cambio a todas las etiquetas o elementos dom significa el *    */
+*{
+  margin: 0; 
+  /* sin relleno  */
+  padding: 0; 
+}
+body{
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* cuando es un id se coloca con un  numeral */
+/* selectores
+id= #
+class= . */
+
+#container {
+    width: 1100px;
+    margin: 0 auto; 
+    border: 1px solid coral;
+}
+
+header{
+    width: 100%;
+    /* alto */
+    height: 100px;
+    background: red;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    border-bottom: 3px dashed black ;
+}
+
+nav{
+    background: yellow;
+    height: 50px;
+    border-bottom: 1px solid red;
+}
+
+nav ul li{
+    list-style: none;
+     float: right; /*alinear todo a la iquierda */
+     margin: 10px;
+}
+ #content{
+
+     float: left;
+     width:calc(80% - 80px) ;
+     background: green;
+     padding: 40px;
+ }
+ .article{
+     color: white;
+     /*arriba derecha abajo izquierad*/
+     margin: 10px 0px 15px 0px;
+     
+    padding-bottom: 20px;
+     padding: 10px;
+     border-bottom: 1px solid royalblue;
+ }
+
+ aside{
+     float: left;
+     width: calc(20% - 20px);
+     background: orange;
+     padding: 10px;
+
+ }
+ img {
+     width: 100px;
+ }
+
+ footer{
+     background: black;
+     color: white;
+     text-align: center;
+     height: 50px;
+     line-height: 50px;
+
+
+    
+ }
+
+  .clearfix {
+      clear: both;  /*deja de flotar  y se alinea a bajo*/
+  }
