@@ -1,87 +1,117 @@
-/* cambio a todas las etiquetas o elementos dom significa el *    */
 *{
-  margin: 0; 
-  /* sin relleno  */
+  margin: 0;  
   padding: 0; 
 }
 body{
-    background: lightgray;
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Yusei Magic', sans-serif;
 }
 
-/* cuando es un id se coloca con un  numeral */
-/* selectores
-id= #
-class= . */
-
+ 
 #container {
     width: 1100px;
-    margin: 0 auto; 
-    border: 1px solid coral;
+    margin: 0 auto;  
 }
 
-header{
-    width: 100%;
-    /* alto */
-    height: 100px;
-    background: red;
-    margin: 0px;
-    text-align: center;
-    color: white;
-    line-height: 100px;
-    border-bottom: 3px dashed black ;
+
+
+
+/* titulo  */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
 }
-
-nav{
-    background: yellow;
-    height: 50px;
-    border-bottom: 1px solid red;
+  
+li {
+  float: right;
 }
+ 
 
-nav ul li{
-    list-style: none;
-     float: right; /*alinear todo a la iquierda */
-     margin: 10px;
+li a {
+  display: block;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  line-height: 50px;
+  height: 50px;
 }
- #content{
-
-     float: left;
-     width:calc(80% - 80px) ;
-     background: green;
-     padding: 40px;
- }
- .article{
-     color: white;
-     /*arriba derecha abajo izquierad*/
-     margin: 10px 0px 15px 0px;
-     
-    padding-bottom: 20px;
-     padding: 10px;
-     border-bottom: 1px solid rgb(225, 116, 65);
- }
-
- aside{
-     float: left;
-     width: calc(20% - 20px);
-     background: orange;
-     padding: 10px;
-
- }
- img {
-     width: 100px;
- }
-
- footer{
-     background: black;
-     color: white;
-     text-align: center;
-     height: 50px;
-     line-height: 50px;
-
-
-    
- }
-/*comentario*/
-  .clearfix {
-      clear: both;  /*deja de flotar  y se alinea a bajo*/
+  
+  li a:hover:not(.active) {
+    color: purple;
   }
+  
+/* section  */
+.container{
+  width: 100%;
+}
+.home-row{
+  display: flex; 
+}
+
+.home-col-6{
+  width: 70%;
+  padding: 70px;
+}
+.home-title{
+  font-size: 40px;
+  margin: 10px 0px;
+}
+.home-parrafo{
+  font-size: 14px;
+  margin: 10px 0px;
+}
+button{
+  height: 30px;
+  width: 20%;
+  border: 0;
+  background: #0a082b;
+  color: #fff;
+  border-radius: 20px;
+  margin: 10px 0px;
+}
+
+.home-col-4{
+  width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#about {
+  margin-top: 50px;
+}
+.band {
+  width: 100%;
+  margin: 0 auto;
+  display: contents;
+  text-align: center;
+
+}
+
+.card{
+  margin-top: 20px;
+  float: left;
+  width: 25%;
+  background: #efefef;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 20px;
+}
+ 
+
+ 

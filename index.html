@@ -3,74 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> mi primera web</title>
+    <title> Page name</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
 
-
-</head>
+</head> 
 <body>
 
     <div id="container">
     <!-- cabecera -->
         <header>
-            <h1>mi sitio web</h1>
-            <h2>cambios en sitio web</h2>
+            <ul>
+                <li style="float: left;">
+                    <a href="#home" style="display: flex;"> 
+                        <img src="assets/img/favicon.png" height="40px"> Page name
+                    </a>
+                </li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#home">Home</a></li>
+
+            </ul>
         </header>
-        <!-- menu  -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a href="index.html">Abaut</a>
-                </li>
-            </ul>
-            <!-- comentarios nuevos web git puul -->
-            <ul>
-                <li>
-                    <a href="index.html">Contactos</a>
-                </li>
-            </ul> 
-        </nav>
-        <div class="clearfix"></div>
-        
-        <!-- contenido  -->
-        <section id="content">
-            <article class="article">
-                <h2>titulo</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis exercitationem provident soluta iste explicabo? Repudiandae, nostrum illum! Ipsum praesentium officia cum molestias sapiente eos nostrum soluta ad laborum, laudantium non.</p>    
-            </article>
-            <article class="article">
-                <h2>titulo</h2>
-                <h3>subtitulo</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis exercitationem provident soluta iste explicabo? Repudiandae, nostrum illum! Ipsum praesentium officia cum molestias sapiente eos nostrum soluta ad laborum, laudantium non.</p>    
-            </article>
-            <article class="article">
-                <h2>titulo</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis exercitationem provident soluta iste explicabo? Repudiandae, nostrum illum! Ipsum praesentium officia cum molestias sapiente eos nostrum soluta ad laborum, laudantium non.</p>    
-            </article>
-           
+   
+       
+
+
+        <section id="home">
+            <div class="container"> 
+                <div class="home-row">
+                    <div class="home-col-6">
+                        <h1 class="home-title">Titulo page name</h1>
+                        <p class="home-parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt nostrum necessitatibus, molestiae inventore nisi tenetur fugiat autem repellendus adipisci numquam animi nesciunt aspernatur cum accusantium.</p>
+                        <button>Contact</button>
+                    </div>
+                    <div class="home-col-4">
+                        <img src="assets/img/home.jpg" height="400px" >
+                    </div>
+                </div>
+            </div>
         </section>
-        <!-- barra lateral  -->
-        <aside>
-            <h2>barra lateral</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo enim quibusdam beatae sed saepe tempora laudantium quasi officiis corrupti voluptate fugiat provident, ipsa quia recusandae commodi! Ab, amet corporis!</p>
-            <form>
-                <input type="text">
-                <input type="submit" value="buscar">
-                <img src="assets/img/gato.png" alt="gatos">
-            </form>
-        </aside>
-        <div class="clearfix"></div>
-        <!-- pie de pagina  -->
-        <footer>
-            Creado por Jessi 2021 &COPY;
-        </footer>
+
+
+        <section id="about">
+            <div class="band">
+                
+                <h2>Titulo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="card">
+                    <img src="assets/img/favicon.png" alt="" srcset="">
+                    <article>
+                        <h1>Titulo</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequuntur veritatis, nobis cum sequi architecto quod laudantium nesciunt eaque quis aliquid minus vero quas voluptate eveniet alias, odio unde quaerat!</p>
+                    </article>
+                </div>
+
+                <div class="card">
+                    <img src="assets/img/favicon.png" alt="" srcset="">
+                    <article>
+                        <h1>Titulo</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequuntur veritatis, nobis cum sequi architecto quod laudantium nesciunt eaque quis aliquid minus vero quas voluptate eveniet alias, odio unde quaerat!</p>
+                    </article>
+                </div>
+
+                <div class="card">
+                    <img src="assets/img/favicon.png" alt="" srcset="">
+                    <article>
+                        <h1>Titulo</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequuntur veritatis, nobis cum sequi architecto quod laudantium nesciunt eaque quis aliquid minus vero quas voluptate eveniet alias, odio unde quaerat!</p>
+                    </article>
+                </div>
+
+
+                
+
+         
+              
+            </div>
+        </section>
+ 
+
+
 
     </div>
 
+
+     
 </body>
 </html>
